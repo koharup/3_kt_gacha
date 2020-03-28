@@ -16,8 +16,8 @@ class ResultActivity : AppCompatActivity() {
 
     var repeat : Int = 0
 
-    //あとで15秒に修正
-    var timer : CountDownTimer = object :CountDownTimer(6700,1){
+
+    var timer : CountDownTimer = object :CountDownTimer(6500,1){
 
         override fun onFinish(){
             repeat = 0
